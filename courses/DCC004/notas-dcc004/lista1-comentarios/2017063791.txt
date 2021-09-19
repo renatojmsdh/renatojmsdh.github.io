@@ -1,0 +1,10 @@
+Questao Nota   Comentarios
+1       2.0    (muito bom)
+2       1.0
+3       5.0    (todas as funcoes como inline)
+4       0.7    (entendeu a ideia -- a leitura/impressao e o solver para o exemplo de tamanho 25 fornecido nao estao funcionando corretamente)
+5       2.0    (todas as funcoes como inline)
+6       2.0    (todas as funcoes como inline)
+7       2.0    (todas as funcoes como inline)
+8       2.0    (todas as funcoes como inline)
+9       1.9    (todas as funcoes como inline -- esqueceu que 3% = 3/100 para calcular juros)

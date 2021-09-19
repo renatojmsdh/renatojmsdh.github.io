@@ -1,0 +1,10 @@
+Questao Nota   Comentarios
+1       1.0    (nao implementou leitura para input .bin)
+2       1.0    (gostei das cores -- espeficicacao dos espacos nas celulas limite)
+3       4.8    (programa rapido -- gostei de ver algumas variaveis sendo passadas por referencia -- o programa fica em loop infinito se o sudoku nao tiver solucao) 
+4       0.0    
+5       1.5    (Nao forneceu makefile -- include nos .cpp nao estao ok -- trabalhoso para testar -- Ponto positivo: Fez data em ingles tbm :-))
+6       1.5    (Nao forneceu makefile -- nao modularizou headers e implementacao em diferentes folders -- Ponto positivo: programa principal faz o teste das dimensoes)  
+7       1.4    (Nao forneceu makefile -- nao modularizou headers e implementacao em diferentes folders -- realizou implementacao dos metodos no .h -- Deixou includes fora dos safeguards no .h) 
+8       1.3    (Nao forneceu makefile -- nao modularizou headers e implementacao em diferentes folders -- realizou implementacao de esfria no .h -- Deixou includes fora dos safeguards no .h -- Definiu "using namespace std;" no .h)
+9       1.2    (Nao forneceu makefile -- nao modularizou headers e implementacao em diferentes folders -- realizou implementacao no .h -- Deixou includes fora dos safeguards no .h -- Definiu "using namespace std;" no .h -- nao adotou que x% = x/100 para calcular juros -- Nao realizou os testes pedidos na definicao do problema no main.cpp) 

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DCC004 - Algoritmos e Estruturas de Dados II</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<H1>DCC004 - Algoritmos e Estruturas de Dados II</H1>
+
+
+<h2>Notas Gerais</h2>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-baqh"><span style="font-weight:bold">RA</span></th>
+    <th class="tg-s6z2"><span style="font-weight:bold">Prova 1</span><br>(20 pts)</th>
+    <th class="tg-s6z2"><span style="font-weight:bold">Prova 2</span><br>(20 pts)<br></th>
+    <th class="tg-s6z2"> <span style="font-weight:bold">Lista 1</span><br>(10 pts)<br></th>
+    <th class="tg-s6z2"><span style="font-weight:bold"> Lista 2</span><br>(10 pts)<br></th>
+    <th class="tg-baqh"> <span style="font-weight:bold">Lista 3</span><br>(10 pts)</th>
+    <th class="tg-baqh"><span style="font-weight:bold">Projeto</span><br>(30 pts)</th>
+    <th class="tg-baqh"><span style="font-weight:bold">Nota Final</span><br> (100 pts)</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2011023054</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2016079538</td>
+    <td class="tg-baqh">14.8</td>
+    <td class="tg-baqh">10.8</td>
+    <td class="tg-baqh">6.9</td>
+    <td class="tg-baqh">7.8</td>
+    <td class="tg-baqh">8.7</td>
+    <td class="tg-baqh">26.0</td>
+    <td class="tg-baqh">75.0</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2017063740</td>
+    <td class="tg-baqh">20.0</td>
+    <td class="tg-baqh">20.0</td>
+    <td class="tg-baqh">6.9</td>
+    <td class="tg-baqh">9.0</td>
+    <td class="tg-baqh">8.5</td>
+    <td class="tg-baqh">26.0</td>
+    <td class="tg-baqh">90.4</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2017063791</td>
+    <td class="tg-s6z2">20.0</td>
+    <td class="tg-s6z2">20.0</td>
+    <td class="tg-s6z2">9.3</td>
+    <td class="tg-s6z2">9.5</td>
+    <td class="tg-baqh">5.2</td>
+    <td class="tg-baqh">26.0</td>
+    <td class="tg-baqh">90.0</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2018731925</td>
+    <td class="tg-s6z2">5.6</td>
+    <td class="tg-s6z2">10.7</td>
+    <td class="tg-s6z2">0.0</td>
+    <td class="tg-s6z2">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">23.7</td>
+    <td class="tg-baqh">40.0</td>
+  </tr>
+</table>
+
+<h2>Notas Lista 1</h2>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-88nc{font-weight:bold;border-color:inherit;text-align:center}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-88nc">RA</th>
+    <th class="tg-88nc">Q1</th>
+    <th class="tg-88nc">Q2</th>
+    <th class="tg-88nc">Q3</th>
+    <th class="tg-88nc">Q4</th>
+    <th class="tg-88nc">Q5</th>
+    <th class="tg-88nc">Q6</th>
+    <th class="tg-88nc">Q7</th>
+    <th class="tg-7btt">Q8</th>
+    <th class="tg-7btt">Q9</th>
+    <th class="tg-7btt">Nota</th>
+    <th class="tg-7btt">Correções</th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2011023054</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-uys7">sem comentarios</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2016079538</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">4.8</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">1.5</td>
+    <td class="tg-c3ow">1.5</td>
+    <td class="tg-c3ow">1.4</td>
+    <td class="tg-c3ow">1.3</td>
+    <td class="tg-c3ow">1.2</td>
+    <td class="tg-c3ow">6.9</td>
+ <td class="tg-uys7"><a href="lista1-comentarios/2016079538.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2017063740</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">3.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">1.8</td>
+    <td class="tg-c3ow">1.8</td>
+    <td class="tg-c3ow">1.7</td>
+    <td class="tg-c3ow">1.7</td>
+    <td class="tg-c3ow">1.7</td>
+    <td class="tg-c3ow">6.9</td>
+ <td class="tg-uys7"><a href="lista1-comentarios/2017063740.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">2017063791</td>
+    <td class="tg-uys7">2.0</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">5.0</td>
+    <td class="tg-uys7">0.7</td>
+    <td class="tg-uys7">2.0</td>
+    <td class="tg-uys7">2.0</td>
+    <td class="tg-uys7">2.0</td>
+    <td class="tg-c3ow">2.0</td>
+    <td class="tg-c3ow">1.9</td>
+    <td class="tg-c3ow">9.3</td>
+    <td class="tg-uys7"><a href="lista1-comentarios/2017063791.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">2018731925</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-uys7">sem comentários</td>
+  </tr>
+</table>
+
+<h2>Notas Lista 2</h2>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-88nc{font-weight:bold;border-color:inherit;text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-88nc">RA</th>
+    <th class="tg-88nc">Q1</th>
+    <th class="tg-88nc">Q2</th>
+    <th class="tg-88nc">Q3</th>
+    <th class="tg-88nc">Q4</th>
+    <th class="tg-88nc">Q5</th>
+    <th class="tg-88nc">Q6</th>
+    <th class="tg-88nc">Q7</th>
+    <th class="tg-7btt">Q8</th>
+    <th class="tg-7btt">Q9</th>
+    <th class="tg-amwm">Q10</th>
+    <th class="tg-amwm">Q11</th>
+    <th class="tg-amwm">Q12</th>
+    <th class="tg-amwm">Q13</th>
+    <th class="tg-7btt">Nota Final</th>
+    <th class="tg-7btt">Correções</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2011023054</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-uys7">sem comentarios</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2016079538</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.4</td>
+    <td class="tg-baqh">0.4</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.9</td>
+    <td class="tg-baqh">0.9</td>
+    <td class="tg-baqh">0.9</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.8</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.7</td>
+    <td class="tg-baqh">1.8</td>
+    <td class="tg-baqh">7.8</td>
+    <td class="tg-uys7"><a href="lista2-comentarios/2016079538.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2017063740</td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">0.5</td>
+    <td class="tg-baqh">0.5</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.5</td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">2.0</td>
+    <td class="tg-baqh">9.0</td>
+    <td class="tg-uys7"><a href="lista2-comentarios/2017063740.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">2017063791</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">0.5</td>
+    <td class="tg-uys7">0.5</td>
+    <td class="tg-uys7">0.5</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-c3ow">0.4</td>
+    <td class="tg-c3ow">0.8</td>
+    <td class="tg-baqh">0.9</td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">1.9</td>
+    <td class="tg-c3ow">9.5</td>
+    <td class="tg-uys7"><a href="lista2-comentarios/2017063791.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">2018731925</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-baqh">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-uys7">sem comentarios</td>
+  </tr>
+</table>
+
+<h2>Notas Lista 3</h2>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-88nc{font-weight:bold;border-color:inherit;text-align:center}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-88nc">RA</th>
+    <th class="tg-88nc">Q1</th>
+    <th class="tg-88nc">Q2</th>
+    <th class="tg-88nc">Q3</th>
+    <th class="tg-88nc">Q4</th>
+    <th class="tg-88nc">Q5</th>
+    <th class="tg-88nc">Q6</th>
+    <th class="tg-88nc">Q7</th>
+    <th class="tg-7btt">Nota</th>
+    <th class="tg-7btt">Correções</th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2011023054</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-uys7">sem comentarios</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2016079538</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">2.0</td>
+    <td class="tg-c3ow">1.7</td>
+    <td class="tg-c3ow">8.7</td>
+ <td class="tg-uys7"><a href="lista3-comentarios/2016079538.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2017063740</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">1.0</td>
+    <td class="tg-c3ow">2.0</td>
+    <td class="tg-c3ow">1.5</td>
+    <td class="tg-c3ow">8.5</td>
+ <td class="tg-uys7"><a href="lista3-comentarios/2017063740.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">2017063791</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">1.0</td>
+    <td class="tg-uys7">0.3</td>
+    <td class="tg-uys7">0.3</td>
+    <td class="tg-uys7">0.6</td>
+    <td class="tg-c3ow">5.2</td>
+    <td class="tg-uys7"><a href="lista3-comentarios/2017063791.txt">comentários das notas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">2018731925</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-uys7">0.0</td>
+    <td class="tg-c3ow">0.0</td>
+    <td class="tg-uys7">sem comentários</td>
+  </tr>
+</table>
+

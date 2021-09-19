@@ -1,0 +1,8 @@
+Questao Nota   Comentarios
+1       1.0    
+2       1.0    
+3       1.0     
+4       1.0    
+5       1.0    
+6       2.0    (muito bom -- nao forneceu make run)   
+7       1.7    (entendeu a ideia -- testes nao passam para codigo v1.5 -- nao forneceu make run -- varias classes dentro de piece.h -- nao forneceu testes para as pecas -- nao implementou classes de excecoes - nao seguiu especificacao)

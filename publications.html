@@ -1,0 +1,715 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87969507-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-87969507-1');
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Bluefish 2.2.7" >
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #982913;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 140%
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+    <link rel="icon" type="image/png" href="https://www.dcc.ufmg.br/dcc/misc/dcc_imagem.png">
+  <title>Renato Martins - INRIA - VeRLab DCC/UFMG</title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+  <link href="files/css.css" rel="stylesheet" type="text/css">
+  </head> 
+  <body>
+<br/>
+  <table border="0" cellpadding="0" cellspacing="0" align="center" width="1050">
+    <tbody><tr>
+    <td>
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%">
+      <tbody><tr>
+            <td valign="middle" width="100%">
+            <p align="center">
+            <ul class="topmenu">
+            <li class="topmenu"><a class="topmenu" href="index.html">Homepage</a></li>
+            <li class="topmenu"><a class="topmenu" href="publications.html" title="Publications">Publications</a></li>
+            <li class="topmenu"><a class="topmenu" href="colab.html" title="Collaborations">Collaborations</a></li>
+            <li class="topmenu"><a class="topmenu" href="teaching.html" title="Teaching">Teaching</a></li>    
+            <li class="topmenu"><a class="topmenu" href="bio.html" title="Software">Software</a></li>            
+            <li class="topmenu"><a class="topmenu" href="index.html" style="color:#982913;">.</a></li>
+            </ul>
+            </p>
+            </td>
+        </tr>  
+        <tbody><tr>    
+        <td valign="middle" width="70%">
+        <p align="left">
+          <name>Publications</name>
+        
+        </td>
+ 
+      </tr>
+      </tbody></table>
+      
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%">
+      <tbody><tr>
+        <td>
+        <heading>International Journals</heading>
+        </td>
+      </tr>
+      </tbody></table>
+
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%"> 
+        
+      <tbody>
+
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/constraints.png" width="220"></div>
+     <img src="files/constraints.png", width="220">
+     </div>
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://arxiv.org/pdf/2103.15596.pdf"> 
+     <papertitle>A Shape-Aware Retargeting Approach to Transfer Human Motion and Appearance in Monocular Videos</papertitle></a><br>
+     Thiago L. Gomes, <strong>Renato Martins</strong>, Joao Ferreira, Rafael Azevedo, Guilherme Torres, and Erickson R. Nascimento <br>
+     International Journal of Computer Vision (<strong>IJCV</strong>), 2021 <br>
+     <a href="https://arxiv.org/pdf/2103.15596.pdf">arXiv</a> /
+     <a href="https://www.verlab.dcc.ufmg.br/retargeting-motion/wacv2020/">project webpage</a> /
+      <a href="files/gomes2020.bib">bibtex</a> /
+     <a href="https://github.com/verlab/Learning2Dance_CAG_2020">github code</a>
+     </p><p></p>
+     <p>In this paper, we propose a unifying formulation for transferring appearance and retargeting human motion from monocular videos. Our method is composed of four main components and synthesizes new videos of people in a different context where they were initially recorded. Differently from recent human neural rendering methods, our approach takes into account jointly body shape, appearance and motion constraints in the transfer.
+   </p></td>
+ </tr>
+
+      
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/semantics-jint.png" width="220"></div>
+     <img src="files/semantics-jint.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://arxiv.org/pdf/2003.06336.pdf"> 
+     <papertitle>Extending Maps with Semantic and Contextual Object Information for Robot Navigation : a Learning-Based Framework using Visual and Depth Cues</papertitle></a><br>
+     <strong>Renato Martins</strong>, Dhiego Bersan, Mario Campos, Erickson R. Nascimento <br>    
+     Springer Journal of Intelligent and Robotic Systems (<strong>JINT</strong>), 2020<br>
+     <a href="https://arxiv.org/pdf/2003.06336.pdf">arXiv</a> /
+     <a href="https://www.verlab.dcc.ufmg.br/semantic-mapping-for-robotics/">project webpage</a> /
+     <a href="files/rmartins19.bib">bibtex</a> /
+     <a href="https://github.com/verlab/3DSemanticMapping_JINT_2020">github code</a>
+     </p><p></p>
+     <p>This work addresses the problem of building augmented metric representations of scenes with semantic information from RGB-D images. We propose a complete framework to create an enhanced map representation of the environment with object-level information to be used in several applications such as human-robot interaction, assistive robotics, visual navigation, or in manipulation tasks. Our formulation leverages a CNN-based object detector (Yolo) with a 3D model-based segmentation technique to perform instance semantic segmentation, and to localize, identify, and track different classes of objects in the scene.
+   </p></td>
+ </tr>
+
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/human_motion_generation.jpg" width="220"></div>
+     <img src="files/human_motion_generation.jpg", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://verlab.github.io/Learning2Dance_CAG_2020/"> 
+     <papertitle>Learning to dance: A graph convolutional adversarial network to generate realistic dance motions from audio</papertitle></a><br>
+     Joao P. Ferreira, Thiago M. Coutinho, Thiago L. Gomes, Jose F. Neto, Rafael Azevedo, <strong>Renato Martins</strong>, Erickson R. Nascimento<br>    
+     Elsevier Journal of Computers and Graphics (<strong>Computers & Graphics</strong>), 2020 <br>
+     <a href="https://arxiv.org/pdf/2011.12999.pdf">arXiv</a> /      
+     <a href="https://verlab.github.io/Learning2Dance_CAG_2020/">project webpage</a> /
+      <a href="files/ferreira20.bib">bibtex</a> /
+     <a href="https://github.com/verlab/Learning2Dance_CAG_2020">github code</a>
+     </p><p></p>
+     <p>In this project, we design a novel human motion generation method, based on graph convolutional networks (GCN), to tackle the problem of automatic dance generation from audio information. Our method proposes an adversarial learning scheme conditioned by music audios to generate natural dance motions, preserving the key movements of different music styles. The automatic generated motions for different dance styles (such as "ballet" and "salsa") are used to animate virtual human avatars.
+   </p></td>
+ </tr>
+ 
+      </tbody></table>
+      
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%">
+      <tbody><tr>
+        <td>
+        <heading>International Conferences</heading>
+        </td>
+      </tr>
+      </tbody></table>
+
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%"> 
+        
+      <tbody>
+
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/retargeting.png" width="220"></div>
+     <img src="files/retargeting.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://arxiv.org/pdf/2001.02606.pdf"> 
+     <papertitle>Do As I Do: Transferring Human Motion and Appearance between Monocular Videos with Spatial and Temporal Constraints</papertitle></a><br>
+     Thiago L. Gomes, <strong>Renato Martins</strong>, Joao Ferreira, Erickson R. Nascimento <br>    
+     IEEE Winter Conference on Applications of Computer Vision (<strong>WACV</strong>), 2020 <br>
+     <a href="https://arxiv.org/pdf/2001.02606.pdf">arXiv</a> /      
+     <a href="https://www.verlab.dcc.ufmg.br/retargeting-motion/wacv2020/">project webpage</a> /
+      <a href="files/gomes2020.bib">bibtex</a> /
+     <a href="">github code</a>
+     </p><p></p>
+     <p>In this paper, we propose a unifying formulation for transferring appearance and retargeting human motion from monocular videos that regards all these aspects. Our method is composed of four main components and synthesizes new videos of people in a different context where they were initially recorded. Differently from recent appearance transferring methods, our approach takes into account body shape, appearance and motion constraints.
+   </p></td>
+ </tr>
+
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/geobit.png" width="220"></div>
+     <img src="files/geobit.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Nascimento_GEOBIT_A_Geodesic-Based_Binary_Descriptor_Invariant_to_Non-Rigid_Deformations_for_ICCV_2019_paper.pdf"> 
+     <papertitle>GEOBIT: A Geodesic-Based Binary Descriptor Invariant to Non-Rigid Deformations for RGB-D Images</papertitle></a><br>
+     Erickson R. Nascimento, Guilherme Potje, <strong>Renato Martins</strong>, Felipe Chamone, Mario F. M. Campos and Ruzena Bajcsy <br>    
+     IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2019 <br>
+     <a href="https://hal.inria.fr/hal-02370753/document">arXiv</a> /      
+     <a href="https://www.verlab.dcc.ufmg.br/descriptors/">project webpage</a> /
+      <a href="files/nascimento19.bib">bibtex</a> /
+     <a href="https://github.com/verlab/GeobitNonrigidDescriptor_ICCV_2019">github code</a>
+     </p><p></p>
+     <p>We introduce a novel binary RGB-D descriptor invariant to isometric deformations. Our method uses geodesic isocurves on smooth textured manifolds. It combines appearance and geometric information from RGB-D images to tackle non-rigid transformations. We used our descriptor to track multiple textured depth maps and demonstrate that it produces reliable feature descriptors even in the presence of strong non-rigid deformations and depth noise.
+   </p></td>
+ </tr>
+
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/semantics-lars.png" width="220"></div>
+     <img src="files/semantics-lars.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://www.verlab.dcc.ufmg.br/wp-content/uploads/2018/12/paper-final.pdf"> 
+     <papertitle>Semantic Map Augmentation for Robot Navigation: A Learning Approach based on Visual and Depth Data</papertitle></a><br>
+     Dhiego Bersan, <strong>Renato Martins</strong>, Mario Campos, Erickson R. Nascimento <br>    
+     IEEE Latin American Robotics Symposium (<strong>LARS</strong>), 2018 <br>
+     <a href="files/talk-LARS.pdf">talk slides</a> /     
+     <a href="files/dbersan18a.bib">bibtex</a> /
+     <a href="https://www.verlab.dcc.ufmg.br/semantic-mapping-for-robotics/">project webpage</a> /
+     <a href="https://github.com/verlab/3DSemanticMapping_JINT_2020">github code</a>
+     </p><p></p>
+     <p>In this work, we propose an open framework for building hybrid maps, i.e., combining both environment structure (metric map) and environment semantics (objects classes) to support autonomous robot perception and navigation tasks. We detect and model objects in the scene from RGB-D images, using convolutional neural networks to extract a semantic layer of the different objects in the scene. Our final environment representation is a metric map augmented with the semantic information of the detected objects.
+   </p></td>
+ </tr>
+
+ <tr onmouseout="dt_stop()" onmouseover="dt_start()">
+          <td width="25%">
+            
+            <div class="one">
+                <div style="opacity: 0;" class="two" id="dt_image"><img src="files/ex1_normals.png" width="220" ></div>
+                <img src="files/iros17.png" width="220">
+            </div>                
+            <script type="text/javascript">
+            function dt_start() {
+              document.getElementById('dt_image').style.opacity = "1";
+            }
+            function dt_stop() {
+              document.getElementById('dt_image').style.opacity = "0";
+            }
+            dt_stop()
+            </script>
+            
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://hal.inria.fr/hal-01581524/document">
+        <papertitle>An Efficient Rotation and Translation Decoupled Initialization from Large Field of View Depth Images</papertitle></a><br>        
+        <strong>Renato Martins</strong>, Eduardo Fernandez Moral and Patrick Rives <br>
+        IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2017 <br>
+        <a href="files/iros17-talk.pdf">talk slides</a> /                                
+        <a href="files/rmartins17a.bib">bibtex</a> /
+        <a href="https://github.com/renatojmsdh/motion-from-normals-spherical-view">github code</a>
+              </p><p></p>
+              <p>This paper describes a registration technique using the normal vectors of depth images. The technique is computed in a decoupled and non-iterative way, and with a large convergence domain. This formulation can be used with an initialization framework to improve the convergence of direct registration methods. </p>
+              </td>
+            </tr>
+
+
+     <tr onmouseout="bs_stop()" onmouseover="bs_start()">
+          <td valign="top" width="25%">
+            </br>
+            <div class="one">
+                <div style="opacity: 0;" class="two" id="bs_image"><img src="files/semantic2.png" width="220"></div>
+                <img src="files/semantic1.png" width="220">
+            </div>                
+            <script type="text/javascript">
+            function bs_start() {
+              document.getElementById('bs_image').style.opacity = "1";
+            }
+            function bs_stop() {
+              document.getElementById('bs_image').style.opacity = "0";
+            }
+            bs_stop()
+            </script>
+            
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://hal.inria.fr/hal-01581525/document">
+        <papertitle>A New Metric for Evaluating Semantic Segmentation: Leveraging Global and Contour Accuracy</papertitle></a><br>
+        Eduardo Fernandez-Moral, <strong>Renato Martins</strong>, Denis Wolf and Patrick Rives <br>
+                IEEE Intelligent Vehicles Symposium (<strong>IV</strong>), 2018 <br>
+                IEEE/RSJ International Conference on Intelligent Robots and Systems Workshop on Planning, Perception and Navigation for Intelligent Vehicles (<strong>IROS PPNIV</strong>), 2017 <br>               
+                <a href="http://ppniv17.irccyn.ec-nantes.fr/session2/Fernandez-Moral/presentation.pdf">talk slides</a>
+                /
+                <a href="files/moral17.bib">bibtex</a>		
+              </p><p></p>
+              <p>In this paper, we propose a new metric to evaluate semantic segmentation. This new metric accounts for both global and contour accuracy in a simple formulation to overcome the weaknesses of the most commonly used metrics.
+              </p><p></p>
+              <p></p>
+              </td>
+            </tr>
+ 
+   <tr onmouseout="jump_stop()" onmouseover="jump_start()">
+        <td valign="top" width="25%">
+      
+        <div class="one">
+                <div style="opacity: 0;" class="two" id="hdrp_image"><img src="files/curvelevels.png" width="220"></div>
+                <img src="files/curvelevels.png" width="220">
+            </div>                
+            <script type="text/javascript">
+            function hdrp_start() {
+              document.getElementById('hdrp_image').style.opacity = "1";
+            }
+            function hdrp_stop() {
+              document.getElementById('hdrp_image').style.opacity = "0";
+            }
+            hdrp_stop()
+            </script>            
+              </td>
+                        
+            
+              <td valign="top" width="75%">
+              <p><a href="https://hal.inria.fr/hal-01403953/document">
+        <papertitle>Adaptive Direct RGB-D Registration and Mapping for Large Motions</papertitle></a><br>
+        <strong>Renato Martins</strong>, Eduardo Fernandez Moral and Patrick Rives <br>
+                Asian Conference on Computer Vision (<strong>ACCV</strong>), 2016<br>
+                <a href="files/posterACCV.pdf">poster</a>
+                / 
+                <a href="files/rmartins16a.bib">bibtex</a>
+              </p><p></p>
+              <p>This work addresses the challenging cases of large motions in direct image registration. We explore the complementary aspects of a classical direct VO and direct point-to-plane strategies, in terms of convergence, by using a modified cost function, where the geometric term prevails in the first coarse iterations, while the intensity data term dominates in the finer increments.</p>                 
+              <p></p>
+              </td>
+            </tr>
+                       
+        <tr onmouseout="bs_stop()" onmouseover="bs_start()">
+          <td valign="top" width="25%">
+            </br>
+            <div class="one">
+                <div style="opacity: 0;" class="two" id="bs_image"><img src="files/keyframeMapping.png" width="220"></div>
+                <img src="files/keyframeMapping.png" width="220">
+            </div>                
+            <script type="text/javascript">
+            function bs_start() {
+              document.getElementById('bs_image').style.opacity = "1";
+            }
+            function bs_stop() {
+              document.getElementById('bs_image').style.opacity = "0";
+            }
+            bs_stop()
+            </script>
+            
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://hal.inria.fr/hal-01403961/document">
+        <papertitle>Increasing the Convergence Domain of RGB-D Direct Registration Methods for Vision-based Localization in Large Scale Environments</papertitle></a><br>
+        <strong>Renato Martins</strong>, Patrick Rives <br>
+                IEEE Intelligent Transportation Systems Conference Workshop on Planning, Perception and Navigation for Intelligent Vehicles (<strong>ITSC PPNIV</strong>), 2016 <br>              
+                <a href="http://ppniv16.irccyn.ec-nantes.fr/session1/Martins/presentation.pdf">talk slides</a>
+                /
+                <a href="files/rmartins16b.bib">bibtex</a>		
+              </p><p></p>
+              <p>In this paper, we show the outcome of a more stable and robust direct registration task in the density/sparsity of the representation (the number of keyframes) in outdoor scene mapping. This allows storing a sparser local representation whilst maintaining a topological structure at large-scale that is accurate enough to ensure the convergence of a task in the neighbourhood of the scene model.
+              </p><p></p>
+              <p></p>
+              </td>
+            </tr>
+
+
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/graph.png" width="220"></div>
+     <img src="files/graph.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://hal.inria.fr/hal-01237848/document"> 
+     <papertitle>Dense Accurate Urban Mapping from Spherical RGB-D Images</papertitle></a><br>
+     <strong>Renato Martins</strong>, Eduardo Fernandez Moral, Patrick Rives <br>    
+     IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2015 <br>
+     <a href="files/iros15-talk.pdf">talk slides</a> /     
+     <a href="files/rmartins15a.bib">bibtex</a>
+     </p><p></p>
+     <p>This work is about exploiting jointly intensity and depth information to generate more precise keyframes for visual odometry or image rendering. The main core of the paper is a depth regularization that considers both geometric and photometric image constraints (planar and superpixel segmentation).
+   </p></td>
+ </tr>
+
+        <tr onmouseout="dt_stop()" onmouseover="dt_start()">
+          <td width="25%">
+            
+            <div class="one">
+                <div style="opacity: 0;" class="two" id="dt_image"><img src="files/icra.png" width="220" ></div>
+                <img src="files/icra.png" width="220">
+            </div>                
+            <script type="text/javascript">
+            function dt_start() {
+              document.getElementById('dt_image').style.opacity = "1";
+            }
+            function dt_stop() {
+              document.getElementById('dt_image').style.opacity = "0";
+            }
+            dt_stop()
+            </script>
+            
+              </td>
+              <td valign="top" width="75%">
+              <p><a href="https://hal.inria.fr/hal-01121089/document">
+        <papertitle>A Compact Spherical RGBD Keyframe-based Representation</papertitle></a>        
+        <br>Tawsif Gokhool, <strong>Renato Martins</strong>, Patrick Rives, Noela Despre<br>
+        IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>), 2015 <br>
+                <a href="files/icra15-short-talk.pdf">highlight talk</a> /   
+                <a href="files/posterICRA.pdf">poster</a> /                
+<a href="files/gokhoolICRA15.bib">bibtex</a>
+              </p><p></p>
+              <p>We proposed in this paper an ego-centric spherical representation to efficiently store a full RGB-D model of a 3D environment. For that, we used the notions of "keyframe" to select the most informative frames, along with the propation/correction of the depth image by representing the uncertainties of the geometry and the pose. </p>
+              </td>
+            </tr>
+ 
+      </tbody>
+      </table>
+      
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%">
+      <tbody><tr>
+        <td>
+        <heading>Dissertations</heading>
+        </td>
+      </tr>
+      </tbody></table>
+
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%"> 
+        
+      <tbody>
+  
+    <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/direct_registration.png" width="220"></div>
+     <img src="files/direct_registration.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://tel.archives-ouvertes.fr/tel-01657421"> 
+     <papertitle>“Direct visual odometry and dense large-scale environment mapping from panoramic RGB-D images” </papertitle></a><br>
+     PhD Thesis prepared at INRIA, Ecole des Mines de Paris, Université Paris Sciences et Lettres, 2017 <br>      
+     <strong>Renato Martins</strong><br>    
+     <em>Thesis committee: </em> <br>
+        &emsp;&emsp;Philippe Martinet, École Centrale de Nantes (Chair)<br>
+        &emsp;&emsp;Cédric Demonceaux, Université Bourgogne Franche-Comté (External Examiner) <br>
+        &emsp;&emsp;Josechu Guerrero, Universidad de Zaragoza (External Examiner) <br>
+        &emsp;&emsp;Alessandro Correa Victorino, Universidade Federal de Minas Gerais (Committee Member) <br>
+        &emsp;&emsp;Florent Lafarge, INRIA (Committee Member) <br>
+        &emsp;&emsp;El Mustapha Mouaddib, Université de Picardie Jules Verne (Committee Member) <br>
+        &emsp;&emsp;Patrick Rives, INRIA (Supervisor) <br>
+     Dissertation: <a href="https://tel.archives-ouvertes.fr/tel-01657421">PDF</a>
+     </p><p></p>
+     <p>
+   </p></td>
+   </tr>
+   
+   
+   <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/fusion_gps_mscThesis.png" width="220"></div>
+     <img src="files/fusion_gps_mscThesis.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="http://repositorio.unicamp.br/jspui/handle/REPOSIP/261567"> 
+     <papertitle>“Exploiting redundancies and constraints between odometries and absolute sensors for ground robotics localization” (in Portuguese) </papertitle></a><br>
+     MSc Thesis in Electrical Engineering, Universidade Estadual de Campinas, 2013 <br> 
+     <strong>Renato Martins</strong><br>    
+     <em>Master thesis committee: </em> <br>
+        &emsp;&emsp;José Raul Azinheira, Instituto Superior Técnico (Committee Member) <br>
+        &emsp;&emsp;Wagner Caradori do Amaral, Universidade Estadual de Campinas (Committee Member) <br>
+        &emsp;&emsp;Ely Carneiro de Paiva, Universidade Estadual de Campinas (Co-Supervisor) <br>
+        &emsp;&emsp;Paulo A. Valente Ferreira,  Universidade Estadual de Campinas (Supervisor) <br>
+        &emsp;&emsp;Samuel Siqueira Bueno, CTI Renato Archer (Co-Supervisor) <br>
+     Dissertation: <a href="http://repositorio.unicamp.br/jspui/handle/REPOSIP/261567">PDF</a>
+     </p><p></p>
+     <p>
+   </p></td>
+   </tr>
+   
+      </tbody>
+      </table>
+      
+
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%">
+      <tbody><tr>
+        <td>
+        <heading>Other Publications and National Brazilian Conferences</heading>
+        </td>
+      </tr>
+      </tbody></table>
+
+      <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%"> 
+        
+      <tbody>
+  
+    <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/ransac_crop.png" width="220"></div>
+     <img src="files/ransac_crop.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://www.ufrgs.br/sbai17/papers/paper_299.pdf"> 
+     <papertitle>“Autonomous navigation strategy between rows of crops based on LiDAR” (in Portuguese)</papertitle></a><br>
+     Randerson A. de Lemos, Gabriel Sobral, Luiz G. B. Mirisola, <strong>Renato Martins</strong>, Mauro F. Koyama, Ely C de Paiva, and Samuel S. Bueno <br>    
+     <em>Brazilian Symposium on Intelligent Automation (SBAI), Porto Alegre </em>, 2017 <br>
+     <a href="https://www.ufrgs.br/sbai17/papers/paper_299.pdf">paper</a>
+     </p><p></p>
+     <p> This article presents an autonomous navigation strategy in cultivars (crops) planted in lines. With a low-cost sensory solution, the strategy is based on a single 2D sweeping LiDAR sensor.
+   </p></td>
+ </tr>
+ 
+ <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/2d-steerable-kinematics.png" width="220"></div>
+     <img src="files/2d-steerable-kinematics.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://fei.edu.br/sbai/SBAI2011/86383.pdf"> 
+     <papertitle>“Kinematics and localization for land robotics applications using multiple encoders” (in Portuguese)</papertitle></a><br>
+     <strong>Renato Martins</strong>, Samuel S. Bueno, Luiz G. B. Mirisola, Ely C. de Paiva and P. Ferreira <br>    
+     <em>Brazilian Symposium on Intelligent Automation (SBAI), São João del Rey </em>, 2011 <br>
+     <a href="https://fei.edu.br/sbai/SBAI2011/86383.pdf">paper</a>
+     </p><p></p>
+     <p> This paper proposes a new 2D localization methodology that optimizes, in a least squares sense, the information gathered from multiple encoders (from four wheels and steering) mounted in an outdoor robotic vehicle. The optimization strategy is designed to reduce the drift from differential odometry. The model is evaluated with data from simulation and real data acquired with an eletric outdoor robotic vehicle of the project VERO.
+   </p></td>
+ </tr>
+ 
+  <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/vero_fusion.png" width="220"></div>
+     <img src="files/vero_fusion.png", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://fei.edu.br/sbai/SBAI2011/87094.pdf"> 
+     <papertitle>“Fusion of GPS and odometry for unmanned ground vehicle localization” (in Portuguese)</papertitle></a><br>
+     <strong>Renato Martins</strong>, Samuel S. Bueno, Luiz G. B. Mirisola, Ely C. de Paiva and P. Ferreira <br>    
+     <em>Brazilian Symposium on Intelligent Automation (SBAI), São João del Rey </em>, 2011 <br>
+     <a href="https://fei.edu.br/sbai/SBAI2011/87094.pdf">paper</a>
+     </p><p></p>
+     <p> This paper proposes a localization methodology based on GPS and odometry fusion. An important aspect is a new odometry formulation, wich results from a least squares optimization of the information gathered from multiple encoders (four wheels and steering) of an outdoor robotic vehicle. The sensor fusion is evaluated using both EKF and UKF filters on real experimental data acquired with the eletric robotic vehicle of the project VERO.
+   </p></td>
+ </tr>
+ 
+   <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/maquete_unicamp.jpg" width="220"></div>
+     <img src="files/maquete_unicamp.jpg", width="220">
+     </div>                
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://repositorio.unal.edu.co/bitstream/handle/unal/24387/10031-18209-1-PB.pdf?sequence=1&isAllowed=y"> 
+     <papertitle>“Implementation and Usage of a Sound-Tactile Model for Sightless People” (in Portuguese)</papertitle></a><br>
+     J. Vilhete Viegas d'Abreu, and <strong>Renato Martins</strong> <br>    
+     <em> Avances en Sistemas e Informática </em>, 2008 <br>
+     <a href="https://repositorio.unal.edu.co/bitstream/handle/unal/24387/10031-18209-1-PB.pdf?sequence=1&isAllowed=y">paper</a> / <a href="https://www.nied.unicamp.br/mapa-tatil-e-sonoro/">project page</a>
+     </p><p></p>
+     <p> This paper describes the designing and construction of sound-­tactile mock-up models to support blind people exploration. The sound-­tactile mock-up models are from indoor and outdoor human-made spaces in the main campus of the University of Campinas. 
+   </p></td>
+ </tr>
+ 
+      </tbody>
+      </table>     
+      
+</body></html>

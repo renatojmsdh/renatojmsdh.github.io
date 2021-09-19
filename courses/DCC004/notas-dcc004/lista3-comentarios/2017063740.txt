@@ -1,0 +1,8 @@
+Questao Nota   Comentarios
+1       1.0    
+2       1.0    
+3       1.0    (muito bom)    
+4       1.0    
+5       1.0    
+6       2.0    (muito bom)
+7       1.5    (entendeu a ideia -- forneceu a implementacao da hierarquia de classes -- implementou excecoes :-) -- classe tabuleiro nao usa map -- nao forneceu testes)    

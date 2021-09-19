@@ -1,0 +1,14 @@
+Questao Nota   Comentarios
+1       1.0    
+2       0.5    
+3       0.5     
+4       0.0    
+5       1.0    
+6       0.0      
+7       0.0     
+8       0.5    (gostei dos dois exemplos -- muito bom os comentarios no codigo) 
+9       1.0     
+10      1.0    (muito bom! :-))      
+11      1.0     
+12      1.0    (exercicio mais dificil -- definiu obter_area() e obter_volume() dentro de forma, mas obter_volume seria apenas em FormaTridimensional -- gostei do uso de funcoes virtuais puras no contrato das classes base -- a sua solucao seria mais elegante se voce tivesse usado typeid como no Lab3 para identificar o tipo dos objetos em vez de dynamic_cast)     
+13      2.0     

@@ -1,0 +1,3 @@
+Aluno			Nota exame		Nota final do curso         
+2016079538		59/100			75
+2018731925		51/100			46

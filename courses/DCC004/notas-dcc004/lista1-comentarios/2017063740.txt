@@ -1,0 +1,10 @@
+Questao Nota   Comentarios
+1       1.0    (nao implementou leitura para input .bin)
+2       1.0
+3       3.0    (programa esta tentando completar o sudoku mas nao chega ao final)
+4       0.0    
+5       1.8    (Makefile.txt -- Makefile encoding MAC OS errado -- Nao separou headers e codigo em diferentes folders src/)
+6       1.8    (Makefile.txt -- Makefile encoding Windows errado -- Nao separou headers e codigo em diferentes folders src/)
+7       1.7    (Makefile.txt -- Makefile encoding Windows errado -- Nao separou headers e codigo em diferentes folders src/ -- Definiu "using namespace std;" no .h)
+8       1.7    (Makefile.txt -- Makefile encoding Windows errado -- Nao separou headers e codigo em diferentes folders src/ -- Definiu "using namespace std;" no .h)
+9       1.7    (Makefile.txt -- Makefile encoding Windows errado -- Nao separou headers e codigo em diferentes folders src/ -- Definiu "using namespace std;" no .h)
