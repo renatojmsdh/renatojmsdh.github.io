@@ -115,6 +115,36 @@
  <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
    <td width="25%">
      <div class="one">
+     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/polarization_ral.png" width="200"></div>
+     <img src="files/polarization_ral.png", width="200">
+     </div>
+     <script type="text/javascript">
+     function diverdi_start() {
+     document.getElementById('diverdi_image').style.opacity = "1";
+     }
+     function diverdi_stop() {
+     document.getElementById('diverdi_image').style.opacity = "0";
+     }
+     diverdi_stop()
+     </script>
+   </td>
+   <td valign="top" width="75%">
+     <p><a href="https://arxiv.org/pdf/2208.13485.pdf"> 
+     <papertitle>A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras</papertitle></a><br>
+     Joaquin Rodriguez, Lew Lew-Yan-Voon, <strong>Renato Martins</strong>, and Olivier Morel <br>
+     Robotics and Automation Letters (<strong>RAL</strong>), 2022 <br>
+     <a href="https://arxiv.org/pdf/2208.13485.pdf">arXiv</a> /
+     <a href="https://github.com/vibot-lab/PolaCalibration_RAL_2022">project webpage</a> /
+      <a href="files/rodriguez-ral2022.bib">bibtex</a> /
+     <a href="https://github.com/vibot-lab/PolaCalibration_RAL_2022">github code</a>
+     </p><p></p>
+     <p> This paper proposes a calibration strategy to estimate the parameters of a polarization camera and lens, i.e., to construct the super-pixel matrix with the four filters' orientations with minimal controlled conditions. The calibration only requires few samples of a uniform and linearly polarized light. 
+   </p></td>
+ </tr>
+
+<tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+   <td width="25%">
+     <div class="one">
      <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/unfolding_cviu.png" width="250"></div>
      <img src="files/features_cviu.png", width="250">
      </div>
