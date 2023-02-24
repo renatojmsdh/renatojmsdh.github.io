@@ -277,6 +277,37 @@
       <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%"> 
         
       <tbody>
+
+        <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+          <td width="25%">
+            <div class="one">
+            <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/keypoint_detector.png" width="250"></div>
+            <img src="files/keypoint_detector.png", width="250">
+            </div>
+            <script type="text/javascript">
+            function diverdi_start() {
+            document.getElementById('diverdi_image').style.opacity = "1";
+            }
+            function diverdi_stop() {
+            document.getElementById('diverdi_image').style.opacity = "0";
+            }
+            diverdi_stop()
+            </script>
+          </td>
+          <td valign="top" width="75%">
+            <p><a href="https://arxiv.org/pdf/2212.09589.pdf"> 
+            <papertitle>Learning to Detect Good Keypoints to Match Non-Rigid Objects in RGB Images</papertitle></a><br>
+            Welerson Melo, Guilherme Potje, Felipe Cadar, <strong>Renato Martins</strong>, and Erickson R. Nascimento <br>
+            Conference on Graphics, Patterns and Images (<strong>SIBGRAPI</strong>), 2022 <br>
+            <a href="https://arxiv.org/abs/2212.09589">arXiv</a> /
+            <a href="">project webpage</a> /
+             <a href="">bibtex</a> /
+            <a href="https://github.com/verlab/LearningToDetect_SIBGRAPI_2022">github code</a>
+            </p><p></p>
+            <p> In this paper, we present a novel detection method for locating confident keypoints on images affected by non-rigid deformations. Our detector learns to locate 
+              keypoints given supervision from visual correspondences, obtained by matching annotated image pairs with a predefined descriptor extractor. 
+          </p></td>
+        </tr>
   
    <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
    <td width="25%">
