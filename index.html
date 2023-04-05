@@ -132,9 +132,10 @@
        <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">         
        <tbody>
         <ul class=space_list>
+        <li> <font color='red'>[NEW]</font> 05.04.2023: <a href="https://cvpr2023.thecvf.com/">CVPR 2023</a> paper accepted: "Deformation-Aware Local Features (DALF)" <a href="https://arxiv.org/abs/2304.00583">[arXiv]</a>  </li>        
         <li> <font color='red'>[NEW]</font> 15.12.2022: I have joined as Associate Member the <a href="https://team.inria.fr/tangram/">TANGRAM team</a> at <a href="https://www.loria.fr/">INRIA Nancy/LORIA</a></li>
         <li> <font color='red'>[NEW]</font> 27.10.2022: Co-advisor of the best Ph.D. Thesis on Computer Vision and Image Processing at <a href="https://www.natalnet.br/sibgrapi2022/awards.html">SIBGRAPI 2022</a>. Congrats <a href="http://professor.ufop.br/thiagoluange/home">Thiago Gomes</a> !</li> 
-        <li> <font color='red'>[NEW]</font> 27.10.2022: Our paper <a href="https://arxiv.org/abs/2212.09589">Learning to detect keypoints by matching</a> received the "Honourable Mention Award on PR/CV/PI at <a href="https://www.natalnet.br/sibgrapi2022/awards.html">SIBGRAPI 2022</a>
+        <li> 27.10.2022: Our paper <a href="https://arxiv.org/abs/2212.09589">Learning to detect keypoints by matching</a> received the "Honourable Mention Award on PR/CV/PI at <a href="https://www.natalnet.br/sibgrapi2022/awards.html">SIBGRAPI 2022</a>
         <li> 02.08.2022: <a href="https://www.ieee-ras.org/publications/ra-l">RAL</a> paper accepted: "Calibration for polarimetric cameras" <a href="https://arxiv.org/abs/2208.13485">[arXiv]</a></li>
         <li> 05.03.2022: Our paper on "Learning Geodesic-Aware Local Features from RGB-D Images" is accepted in the journal <a href="https://www.journals.elsevier.com/computer-vision-and-image-understanding">CVIU</a> <a href="https://arxiv.org/abs/2203.12016">[arXiv]</a>  </li>
         <li> 02.01.2022: <a href="https://wacv2022.thecvf.com/">WACV 2022</a> paper accepted: "Creating and Reenacting Controllable 3D Humans with Differentiable Rendering" <a href="https://arxiv.org/abs/2110.11746">[arXiv]</a>  </li>
@@ -174,7 +175,44 @@
       <table border="0" cellpadding="20" cellspacing="0" align="center" width="100%">         
        <tbody>
 
+    <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+          <td width="25%">
+            <div class="one">
+            <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/dalf_cvpr.png" width="250"></div>
+            <img src="files/dalf_cvpr.png", width="250">
+            </div>
+            <script type="text/javascript">
+            function diverdi_start() {
+            document.getElementById('diverdi_image').style.opacity = "1";
+            }
+            function diverdi_stop() {
+            document.getElementById('diverdi_image').style.opacity = "0";
+            }
+            diverdi_stop()
+            </script>
+          </td>
+          <td valign="top" width="75%">
+            <p><a href="https://arxiv.org/pdf/2304.00583.pdf"> 
+            <papertitle>Enhancing Deformable Local Features by Jointly Learning to Detect and Describe Keypoints</papertitle></a><br>
+            Guilherme Potje, Felipe Cadar, Andre Araujo, <strong>Renato Martins</strong>, and Erickson R. Nascimento <br>
+            IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 <br>
+            <a href="https://arxiv.org/abs/2304.00583">arXiv</a> /
+            <a href="https://www.verlab.dcc.ufmg.br/descriptors/dalf_cvpr23">project webpage</a> /
+             <a href="files/potjecvpr23.bib">bibtex</a> /
+            <a href="">github code</a>
+            </p><p></p>
+            <p> This paper proposes a learning-based keypoint detection and description approach to describe images of rigid and non-rigid objects.
+              Both detection and description of keypoints are learned jointly and they are done simultaneously at test time.            
+          </p>                   
+        </td>
+        </tr>
 
+        <tr>
+          <td>
+            <br>
+          </td>          
+        </tr>
+  
     <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
           <td width="25%">
             <div class="one">
@@ -190,6 +228,7 @@
             }
             diverdi_stop()
             </script>
+           
           </td>
           <td valign="top" width="75%">
             <p><a href="https://arxiv.org/pdf/2212.09589.pdf"> 
@@ -203,37 +242,10 @@
             </p><p></p>
             <p> In this paper, we present a novel detection method for locating confident keypoints on images affected by non-rigid deformations. Our detector learns to locate 
               keypoints given supervision from visual correspondences, obtained by matching annotated image pairs with a predefined descriptor extractor. 
-          </p></td>
+          </p>
+        </td>
         </tr>
- <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
-   <td width="25%">
-     <div class="one">
-     <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/polarization_ral.png" width="200"></div>
-     <img src="files/polarization_ral.png", width="200">
-     </div>
-     <script type="text/javascript">
-     function diverdi_start() {
-     document.getElementById('diverdi_image').style.opacity = "1";
-     }
-     function diverdi_stop() {
-     document.getElementById('diverdi_image').style.opacity = "0";
-     }
-     diverdi_stop()
-     </script>
-   </td>
-   <td valign="top" width="75%">
-     <p><a href="https://arxiv.org/pdf/2208.13485.pdf"> 
-     <papertitle>A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras</papertitle></a><br>
-     Joaquin Rodriguez, Lew Lew-Yan-Voon, <strong>Renato Martins</strong>, and Olivier Morel <br>
-     Robotics and Automation Letters (<strong>RAL</strong>), 2022 <br>
-     <a href="https://arxiv.org/abs/2208.13485">arXiv</a> /
-     <a href="https://github.com/vibot-lab/PolaCalibration_RAL_2022">project webpage</a> /
-      <a href="files/rodriguez-ral2022.bib">bibtex</a> /
-     <a href="https://github.com/vibot-lab/PolaCalibration_RAL_2022">github code</a>
-     </p><p></p>
-     <p> This paper proposes a calibration strategy to estimate the parameters of a polarization camera and lens, i.e., to construct the super-pixel matrix with the four filters' orientations with minimal controlled conditions. The calibration only requires few samples of a uniform and linearly polarized light.
-   </p></td>
- </tr>
+
 	       
       </tbody>
       </table> 

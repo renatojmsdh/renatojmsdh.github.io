@@ -281,6 +281,43 @@
         <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
           <td width="25%">
             <div class="one">
+            <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/dalf_cvpr.png" width="250"></div>
+            <img src="files/dalf_cvpr.png", width="250">
+            </div>
+            <script type="text/javascript">
+            function diverdi_start() {
+            document.getElementById('diverdi_image').style.opacity = "1";
+            }
+            function diverdi_stop() {
+            document.getElementById('diverdi_image').style.opacity = "0";
+            }
+            diverdi_stop()
+            </script>
+          </td>
+          <td valign="top" width="75%">
+            <p><a href="https://arxiv.org/pdf/2304.00583.pdf"> 
+            <papertitle>Enhancing Deformable Local Features by Jointly Learning to Detect and Describe Keypoints</papertitle></a><br>
+            Guilherme Potje, Felipe Cadar, Andre Araujo, <strong>Renato Martins</strong>, and Erickson R. Nascimento <br>
+            IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2023 <br>
+            <a href="https://arxiv.org/abs/2304.00583">arXiv</a> /
+            <a href="https://www.verlab.dcc.ufmg.br/descriptors/dalf_cvpr23">project webpage</a> /
+             <a href="files/potjecvpr23.bib">bibtex</a> /
+            <a href="">github code</a>
+            </p><p></p>
+            <p> This paper proposes a learning-based keypoint detection and description approach to describe images of rigid and non-rigid objects.
+              Both detection and description of keypoints are learned jointly and they are done simultaneously at test time.
+          </p></td>
+        </tr>
+
+        <tr>
+          <td>
+            <br>
+          </td>          
+        </tr>
+
+        <tr onmouseout="diverdi_stop()" onmouseover="diverdi_start()">
+          <td width="25%">
+            <div class="one">
             <div style="opacity: 0;" class="two" id="diverdi_image"><img src="files/keypoint_detector.png" width="250"></div>
             <img src="files/keypoint_detector.png", width="250">
             </div>
